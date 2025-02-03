@@ -120,7 +120,7 @@ void	hook(void *ml)
 	data = ml;
 	old_x = ((*data)->player.x + (*data)->move_x) / (*data)->size;
 	old_y = ((*data)->player.y + (*data)->move_y) / (*data)->size;
-	control_mousse(data);
+	// control_mousse(data);
 	if (if_condition(data, old_y, old_x) == 1)
 		return ;
 	mlx_delete_image((*data)->mlx_ptr, (*data)->img);

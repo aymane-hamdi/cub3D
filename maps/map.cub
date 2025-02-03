@@ -1,8 +1,8 @@
-C 2,25,85
+C 0,0,150
 SO     ./textures/seamless_stone.png
 WE      ./textures/seamless_stone.png
 EA       ./textures/seamless_stone.png
-F 2,125,85
+F 0,150,0
 NO ./textures/seamless_stone.png
 
 
