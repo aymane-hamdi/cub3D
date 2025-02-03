@@ -42,18 +42,14 @@ void	draw_minimap(t_config **data)
 {
 	int	i;
 	int	j;
-	int	y;
 	int	player_x;
-	int	player_y;
 
 	i = 0;
 	draw_card(*data);
 	player_x = (*data)->player.x + (*data)->move_x;
-	player_y = (*data)->player.y + (*data)->move_y;
 	while ((*data)->map->map_buffer[i])
 	{
 		j = 0;
-		y = i * SIZE_;
 		while ((*data)->map->map_buffer[i][j])
 		{
 			while_loop(data, i, j, player_x);

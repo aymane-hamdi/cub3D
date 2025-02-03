@@ -53,12 +53,8 @@ static void	if_condition(t_config **data, int ray)
 void	castallrays(t_config **data)
 {
 	int		ray;
-	double	player_x;
-	double	player_y;
 
 	ray = 0;
-	player_x = (*data)->player.x + (*data)->move_x;
-	player_y = (*data)->player.y + (*data)->move_y;
 	(*data)->ray.ray_ngl = ((*data)->player.angle + (*data)->mouv_camera_left)
 		- ((*data)->player.fov_rd / 2);
 	(*data)->rays[ray].ray_ngl = (*data)->ray.ray_ngl;

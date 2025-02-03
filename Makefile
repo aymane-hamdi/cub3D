@@ -6,7 +6,8 @@ OBJS			= $(SRCS:.c=.o)
 
 CC			= cc
 RM			= rm -f
-MLX_LIB	=   MLX42/build/libmlx42.a -Iinclude -Iinclude -lglfw
+CFLAGS		=  -Wall -Wextra -Werror  
+MLX_LIB	=   MLX42/build/libmlx42.a -Iinclude -lglfw -L"/Users/akheired/.brew/Cellar/glfw/3.4/lib"
 NAME		= cub3D
 LIBFT 		= libft/libft.a
 
