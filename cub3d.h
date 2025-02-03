@@ -16,7 +16,7 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include "getNextLine/get_next_line.h"
-# include "MLX42/include/MLX42/MLX42.h"
+# include "mlx/include/MLX42/MLX42.h"
 # include <math.h>
 
 # define FOV 60
