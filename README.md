@@ -80,13 +80,6 @@ make
    - https://lodev.org/cgtutor/raycasting.html
 ---
 
-# Contributors
-Kheireddine Anas
-
-GitHub: @Kheireddine-Anas
-
-Aymane Hamdi
-
-GitHub: @aymane-hamdi
+Made by aymane-hamdi and Kheireddine-Anas
 
 
