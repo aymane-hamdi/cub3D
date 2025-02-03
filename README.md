@@ -81,10 +81,12 @@ make
 ---
 
 # Contributors
-## Kheireddine Anas
+Kheireddine Anas
 
 GitHub: @Kheireddine-Anas
 
-## Aymane Hamdi
+Aymane Hamdi
 
 GitHub: @aymane-hamdi
+
+
